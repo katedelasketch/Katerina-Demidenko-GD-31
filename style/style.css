@@ -1,0 +1,253 @@
+@charset "utf-8";
+body {
+	font-family: 'Lato', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+.page-header {
+	padding-bottom: 70px;
+	max-width: 1200px;
+	margin: 0px auto;
+}
+.nav-header {
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.2em;
+	font-weight: 300;
+	list-style-type: none;
+	padding: 30px 0;
+}
+.nav-item {
+	color: #232323;
+}
+.nav-item:hover {
+	font-weight: 900;
+}
+.btn-line {
+	color: #232323;
+    background-color: #e9e7e7;
+    font-weight: 900;
+    letter-spacing: 1.25px;
+    padding: 14px 52px;
+    border: 3px solid #232323;
+    border-radius: 5px;
+}
+.btn-line:hover {
+	color: #e9e7e7;
+    background-color: #232323;
+} 
+main {
+	padding-bottom: 160px;
+}
+.wrap {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.grid {
+    display: flex;
+    justify-content: space-between;
+}
+.Title {
+	font-size: 5em;
+	color: #232323;
+	font-family: 'Cardo', serif;
+	width: 440px;
+	line-height: 1;
+    letter-spacing: 1px;
+    margin-bottom: 21px;
+	}
+.wrap-memory {
+	width: 470px;
+	margin: 0 auto;
+  }
+.title-white {
+	margin: 0;
+	padding-top: 50px;
+	font-size: 3.4em;
+	color: #fff;
+	font-family: 'Cardo', serif;
+	line-height: 1;
+    letter-spacing: 1.4px;
+}
+.text-white {
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 58px;
+	color: #fff;
+}
+.text-black {
+    line-height: 1.25;
+    letter-spacing: -0.2px;
+    text-align: justify;
+}
+.btn-black {
+	color: #e9e7e7;
+    background-color: #232323;
+    font-weight: 900;
+    padding: 13px 50px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-top: 38px;
+    display: block;
+    width: 155px;
+    font-size: 21px
+} 
+.btn-black:hover {
+	color: #232323;
+    background-color: #e9e7e7;
+    }
+.btn-white {
+	color: #fff;
+    background-color: #232323;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 1.25px;
+    padding: 14px 58px;
+    border: 3px solid #fff;
+    border-radius: 5px;
+}
+.btn-white:hover {
+	color: #232323;
+    background-color: #fff;
+    border: 3px solid #fff;
+}
+.travel-box 
+{
+	width: 425px;
+}
+.Travel_img {
+	float: right;
+}
+.page-memory {
+	text-align: center;
+	background-color: #232323;
+    padding-bottom: 70px;
+}
+
+.page-choice {
+	padding-bottom: 183px;
+}
+.item-choice {
+	padding-top: 166px;
+	width: 363px;
+}
+.hr-line {
+width: 50px;
+border-top: 3px solid #232323;
+margin: 28px auto 22px 0;
+}
+.title-choice
+{
+	font-family: 'Cardo', serif;
+	color: #232323;
+	font-size: 36px;
+	letter-spacing: 0.5px;
+	line-height: 1;
+	width: 70%;
+	margin: 0 0 30px 0;
+}
+.page-plane {
+    padding-top: 200px;
+    padding-bottom: 275px;
+}
+.icon-vector {
+	width: 72px;
+}
+.title-plane {
+	font-family: 'Cardo', serif;
+	color: #232323;
+	font-size: 97px;
+	width: 790px;
+	line-height: 1;
+    letter-spacing: 1px;
+    margin: 61px auto;
+}
+.wrap-plane {
+	text-align: center;
+}
+.underline {
+	text-decoration: none;
+	border-bottom: 5px solid #232323;
+	padding-bottom: 5px;
+}
+.italic {
+	font-style: italic;
+}
+.Travel {
+	background: url(../IMGS/brush_left.png) no-repeat left bottom, url(../IMGS/brush_right.png) no-repeat right bottom;
+		background-color: #e9e7e7;
+}
+.title-white-big {
+	font-size: 3.3em;
+	font-family: 'Cardo', serif;
+	line-height: 1;
+    letter-spacing: 1.3px;
+}
+.page-places{
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 825px;
+}
+.lake-img{
+	float: left;
+	height: 780px;
+	padding-right: 43px;
+}
+.mountain-img{
+	height: 324px;
+	float: top;
+	padding-bottom: 79px;
+}
+.places-box{
+	width: 318px;
+	float: right;
+}
+.arrow-img{
+	float: right;
+	padding-top: 104px;
+}
+h3{
+	margin: 0;
+	padding: 0;
+	}
+.places-title{
+	max-width: 235px;
+	max-height: 235px;
+	float: left;
+}
+.title-underline{
+	font-family: 'Cardo', serif;
+	color: #232323;
+	font-size: 36px;
+	text-decoration: underline;
+	line-height: 1.4;
+}
+.page-man{
+	background-color: #232323;
+	height: 875px;
+	color: #fff;
+}
+h2{
+	margin: 0;
+	padding: 0;
+	}
+.man-img{
+	float: right;
+	padding-top: 155px;
+}
+.choose-wrap{
+	padding-top: 155px;
+	padding-left: 255px;
+	max-width: 455px;
+	max-height: 563px;
+}
+.title-white-two{
+	font-size: 25px;
+}
+.title-choose{
+	padding-bottom: 90px;
+}
+.page-choice{
+	background-color: #e9e7e7;
+}
